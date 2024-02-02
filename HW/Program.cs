@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            static int magic() => 10;
+            for (int i = 0; i < magic(); i++) 
+                Console.WriteLine("Hello, World!");
         }
     }
 }
